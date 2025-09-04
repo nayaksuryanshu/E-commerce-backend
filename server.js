@@ -36,7 +36,7 @@ const server = createServer(app);
 // Define allowed origins
 const allowedOrigins = [
   process.env.CLIENT_URL || "http://localhost:3000",
-  "https://your-app-name.vercel.app",
+  "https://e-commerce-frontend-two-psi.vercel.app",
   "http://localhost:3001", // Admin panel
   "http://localhost:3002", // Vendor dashboard
 ];
